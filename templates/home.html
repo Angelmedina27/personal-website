@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>My Project Progress</h1>
+<ul>
+    {% for item in items %}
+        <li>
+            {{ item.name }} - 
+            {% if item.completed %}
+                Completed
+            {% else %}
+                In progress
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}
