@@ -1,0 +1,6 @@
+<b>Assignment Reflection<b>
+<b>Question 1. Choose one test from the provided suite and name it. In plain English, what does that test confirm about your site? Then name one thing your site could get wrong that this test would not catch.<b>
+I am choosing the test that's named `test_page_lists_at_least_five_items(self):`. This test confirmed that I had atleast 5 bullet points that sued lists tags. One thing my site could get wrong that this test would not catch is the contents inside the bullet points because it only confirms the HTML tags and doesn't read what is inside the contents.
+
+<b>Question 2. You built three pages that share one navigation bar. If you added a fourth link to your navigation, how many files would you edit? How many would you have edited if you had not used base.html, and why?<b>
+Since I already set up the "base.html", I would only need to edit 1 file in order to add a fourth link and it would automatically show up on the pages. If I didnt use the "base.html", I would need to edit all 3 files in order for the fourth link to show on all pages.
